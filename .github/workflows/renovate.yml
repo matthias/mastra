@@ -20,10 +20,10 @@ on:
         options:
           - INFO
           - DEBUG
-  schedule:
-    # The "*" (#42, asterisk) character has special semantics in YAML, so this
-    # string has to be quoted.
-    - cron: '0 */6 * * *'
+  # schedule:
+  #   # The "*" (#42, asterisk) character has special semantics in YAML, so this
+  #   # string has to be quoted.
+  #   - cron: '0 */6 * * *'
 # Adding these as env variables makes it easy to re-use them in different steps and in bash.
 env:
   cache_archive: renovate_cache.tar.gz
