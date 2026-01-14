@@ -2,8 +2,8 @@ name: Delete Spam Issues
 
 on:
   # Run on a schedule to batch process spam issues
-  schedule:
-    - cron: '*/5 * * * *' # Run every 5 minutes
+  # schedule:
+  #   - cron: '*/5 * * * *' # Run every 5 minutes
   # Also run manually from the Actions tab
   workflow_dispatch:
 
